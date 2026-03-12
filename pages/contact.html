@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts - my first website</title>
+    <script src="../app.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="contact.html">Contacts</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Me</h1>
+
+        <form action="./submit_page" method="get">
+            
+            <p>
+                <label for="name">Name (required):</label>
+                <input id="name" name="name" type="text" required minlength="2" maxlength="30">
+            </p>
+
+            <p>
+                <label for="email">Email (required):</label>
+                <input id="email" name="email" type="email" required>
+            </p>
+
+            <p>
+                <label for="phone">Phone (optional):</label>
+                <input id="phone" name="phone" type="tel" pattern="[0-9]{10,12}">
+            </p>
+
+            <p>
+                <label for="topic">Subject:</label>
+                <select id="topic" name="topic">
+                    <option value="study">Study</option>
+                    <option value="work">Work</option>
+                    <option value="other">Other</option>
+                </select>
+            </p>
+
+            <fieldset>
+                <legend>Preferred Contact Method</legend>
+                <label>
+                    <input type="radio" name="contactWay" value="email" checked> Email
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="contactWay" value="phone"> Phone
+                </label>
+            </fieldset>
+
+            <p>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="40" placeholder="Your message here..."></textarea>
+            </p>
+
+            <p>
+                <label>
+                    <input type="checkbox" name="agree" required>
+                    I agree to the data processing rules
+                </label>
+            </p>
+
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Clear Form</button>
+            </div>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kolomiiets Daniil</p>
+    </footer>
+</body>
+</html>
