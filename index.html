@@ -5,25 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="My first educational HTML website, created to learn the basics of web development.">
     <title>My first HTML website</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
 </head>
 
 <body>
-    <header> 
-        <nav>
-            <a href="index.html">Main</a>
-            <a href="pages/about.html">About Me</a>
-            <a href="pages/contact.html">Contact</a>
-        </nav>
-    </header>
+   <header class="site-header">
+    <div class="container">
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active">Main</a></li>
+          <li><a href="pages/about.html" class="nav-link">About Me</a></li>
+          <li><a href="pages/contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <main> 
+    <main class="container"> 
         <h1>Welcome to my first website!</h1>
         
         <p>I am a student who is learning <strong>Front-end</strong>. This page is the result of my first practical work with <em>HTML</em>.</p>
     </main>
 
-    <footer>
-        <p>&copy; 2026 Kolomiiets Daniil</p>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Kolomiiets Daniil</p>
+        </div>
     </footer>
 </body>
 </html>

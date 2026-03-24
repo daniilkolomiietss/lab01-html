@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /.two-column {
+    flex-direction: column;
+  }
+}
