@@ -73,3 +73,37 @@ section {
   font-size: 0.9rem;
   border-top: 1px solid var(--color-border);
 }
+
+.nav-link.is-active {
+    color: #ff4500;
+    font-weight: bold;
+}
+
+body.theme-dark {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+    .nav-list { display: none; }
+    .nav-list.is-open { display: block; } 
+}
+
+/* Модальне вікно */
+.modal-overlay {
+    display: none;
+    position: fixed;
+}
+.modal-overlay.is-open {
+    display: flex;
+}
+
+.back-to-top {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+.back-to-top.is-visible {
+    opacity: 1;
+    pointer-events: auto;
+}
