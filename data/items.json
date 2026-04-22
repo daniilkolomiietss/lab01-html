@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "title": "South of the Border, West of the Sun",
+    "category": "fiction",
+    "description": "A nostalgic and melancholic novel about childhood sweethearts meeting again in adulthood.",
+    "image": "./assets/img/south-border.jpg",
+    "price": 15.99,
+    "rating": 4.8,
+    "featured": true
+  },
+  {
+    "id": "2",
+    "title": "Confessions of a Mask",
+    "category": "fiction",
+    "description": "A profound psychological exploration of identity and the struggle between private self and public persona.",
+    "image": "./assets/img/confessions-mask.jpg",
+    "price": 18.50,
+    "rating": 4.9,
+    "featured": false
+  },
+  {
+    "id": "3",
+    "title": "The Little Prince",
+    "category": "fable",
+    "description": "A timeless story about a young prince who travels from planet to planet, exploring themes of loneliness and friendship.",
+    "image": "./assets/img/little-prince.jpg",
+    "price": 12.00,
+    "rating": 5.0,
+    "featured": true
+  },
+  {
+    "id": "4",
+    "title": "Mastering Kishotenketsu",
+    "category": "educational",
+    "description": "A guide to the traditional four-act Japanese narrative structure used in manga and prose.",
+    "image": "./assets/img/kishotenketsu-guide.jpg",
+    "price": 22.00,
+    "rating": 4.7,
+    "featured": false
+  },
+  {
+    "id": "5",
+    "title": "Effective .NET Development",
+    "category": "tech",
+    "description": "Essential patterns and practices for building scalable applications using the .NET framework.",
+    "image": "./assets/img/dotnet-dev.jpg",
+    "price": 45.00,
+    "rating": 4.6,
+    "featured": true
+  },
+  {
+    "id": "6",
+    "title": "No Longer Human",
+    "category": "fiction",
+    "description": "A masterpiece of Japanese literature detailing the life of a man who feels alienated from society.",
+    "image": "./assets/img/no-longer-human.jpg",
+    "price": 17.00,
+    "rating": 4.9,
+    "featured": false
+  },
+  {
+    "id": "7",
+    "title": "The Art of Dramatic Writing",
+    "category": "educational",
+    "description": "A classic manual on the creative process of developing characters and conflict in storytelling.",
+    "image": "./assets/img/dramatic-writing.jpg",
+    "price": 19.99,
+    "rating": 4.5,
+    "featured": false
+  },
+  {
+    "id": "8",
+    "title": "Cyberpunk Aesthetics",
+    "category": "design",
+    "description": "An exploration of visual styles and world-building in futuristic and dystopian media.",
+    "image": "./assets/img/cyberpunk-style.jpg",
+    "price": 30.00,
+    "rating": 4.4,
+    "featured": true
+  }
+]

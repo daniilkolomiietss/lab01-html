@@ -89,7 +89,6 @@ body.theme-dark {
     .nav-list.is-open { display: block; } 
 }
 
-/* Модальне вікно */
 .modal-overlay {
     display: none;
     position: fixed;

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog - Project Showcase</title>
+    <link rel="stylesheet" href="styles/style.css"> </head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html" class="nav-link">Main</a></li>
+                <li><a href="about.html" class="nav-link">About me</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="catalog.html" class="nav-link">Catalog</a></li>            
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Item Catalog</h1>
+
+        <section class="controls">
+            <div class="control-group">
+                <label for="searchInput">Search:</label>
+                <input type="text" id="searchInput" placeholder="Search by title or description...">
+            </div>
+
+            <div class="control-group">
+                <label for="categoryFilter">Category:</label>
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="fable">Fable</option>
+                    <option value="educational">Educational</option>
+                    <option value="tech">Tech</option>
+                    <option value="design">Design</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="sortSelect">Sort by:</label>
+                <select id="sortSelect">
+                    <option value="default">Default</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="rating-desc">Rating: High to Low</option>
+                </select>
+            </div>
+        </section>
+
+        <hr>
+
+        <div id="loadingState" class="status-message">
+            <p>Loading catalog items, please wait...</p>
+        </div>
+
+        <div id="errorState" class="status-message error" hidden>
+            <p>Oops! Something went wrong while loading the data.</p>
+        </div>
+
+        <div id="emptyState" class="status-message" hidden>
+            <p>No items match your search or filter criteria.</p>
+        </div>
+
+        <section data-catalog class="catalog-grid">
+            </section>
+
+        <div class="pagination">
+            <button id="loadMoreBtn" hidden>Show More</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kolomiiets Daniil</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/catalog.js"></script>
+</body>
+</html>
