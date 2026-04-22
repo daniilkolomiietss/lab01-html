@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', initCatalogPage); //
+document.addEventListener('DOMContentLoaded', initCatalogPage);
 
 let catalogData = [];
 
